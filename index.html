@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>News Search API</h1>
+        <p>Find the latest news articles by entering a keyword below.</p>
+
+        <div class="search-bar">
+            <input type="text" id="searchQuery" placeholder="Enter keyword..." />
+            <button onclick="fetchNews()">Search</button>
+        </div>
+
+        <div class="news-articles" id="newsArticles"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
